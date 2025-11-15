@@ -3,10 +3,18 @@ name = "sms-healthcare-advisor"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
+<<<<<<< Updated upstream
 requires-python = ">=3.11"
 dependencies = [
     "transformers>=4.35.0",
     "torch>=2.1.0",
     "accelerate>=0.24.0",
     "sentencepiece>=0.1.99",
+=======
+requires-python = ">=3.13"
+dependencies = [
+    "flask>=3.1.2",
+    "langchain>=1.0.7",
+    "twilio>=9.8.6",
+>>>>>>> Stashed changes
 ]
