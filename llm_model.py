@@ -95,7 +95,6 @@ class HealthcareLLM:
         num_return_sequences: int,
         **kwargs
     ) -> str:
-        """Generate using pipeline API."""
         # Extract repetition_penalty and max_new_tokens from kwargs if provided
         repetition_penalty = kwargs.pop('repetition_penalty', 1.0)
         max_new_tokens = kwargs.pop('max_new_tokens', None)
